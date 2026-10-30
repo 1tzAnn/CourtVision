@@ -1,0 +1,84 @@
+{
+  "source": "BoxScore Lab / NBA Stats",
+  "license": "CC BY 4.0",
+  "license_url": "https://boxscorelab.com/downloads/",
+  "retrieved_utc": "2026-10-26T02:57:08.452588+00:00",
+  "files": [
+    {
+      "file": "2022-23-team-game-results.csv",
+      "url": "https://boxscorelab.com/downloads/2022-23-team-game-results.csv",
+      "sha256": "40b9a2c4f50d040396c53a45e86d174dcfcb0af3d8105a1c53f33432cf088a86",
+      "bytes": 316882
+    },
+    {
+      "file": "2022-23-player-season-totals.csv",
+      "url": "https://boxscorelab.com/downloads/2022-23-player-season-totals.csv",
+      "sha256": "71bc989c1eba07f17e4127468d691bf37fb084250ff0ab13faf53c5c7530947e",
+      "bytes": 88166
+    },
+    {
+      "file": "2023-24-team-game-results.csv",
+      "url": "https://boxscorelab.com/downloads/2023-24-team-game-results.csv",
+      "sha256": "3f181cbcc8bda22aa878e59e34f638fc10961a9af9b6aaf2d622cccb8028afce",
+      "bytes": 316978
+    },
+    {
+      "file": "2023-24-player-season-totals.csv",
+      "url": "https://boxscorelab.com/downloads/2023-24-player-season-totals.csv",
+      "sha256": "c11f054cfb6d0f53b45332e136d1cb9927719db23c08e5a1903a4751a1d0f00e",
+      "bytes": 92987
+    },
+    {
+      "file": "2024-25-team-game-results.csv",
+      "url": "https://boxscorelab.com/downloads/2024-25-team-game-results.csv",
+      "sha256": "61d696baa530a865f06169be4cfc0992de731c400317e484f9fa146cd6c2321b",
+      "bytes": 317495
+    },
+    {
+      "file": "2024-25-player-season-totals.csv",
+      "url": "https://boxscorelab.com/downloads/2024-25-player-season-totals.csv",
+      "sha256": "1e40bcfa70ea7aa6ddeae1e854d43fbcbc8ee2eeacd48dabcfb0b8465ebf2a42",
+      "bytes": 93671
+    }
+  ],
+  "audit_source": {
+    "file": "2025-26-team-game-results.csv",
+    "url": "https://boxscorelab.com/downloads/2025-26-team-game-results.csv",
+    "sha256": "f2872cc98025595469847db9da3210521d7ea52ab5d43ce39ffd4f1e6ffbacf1",
+    "bytes": 317827,
+    "license": "CC BY 4.0",
+    "retrieved_utc": "2026-10-26T22:47:32.124500+00:00"
+  },
+  "spatial": [
+    {
+      "file": "shots_2025.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_shots/shots_2025.parquet",
+      "sha256": "231a6200ddea88ce997e967f99396830b1c41a6df0f0d7678b37852d6aa5759f",
+      "license": "CC BY 4.0",
+      "license_url": "https://github.com/sportsdataverse/hoopR-nba-stats-data/blob/main/LICENSE.md"
+    },
+    {
+      "file": "lineups_2025.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_lineups/lineups_2025.parquet",
+      "sha256": "acf834ba98ce52a553613dcaea38424677a46de9c44f8d1aa50bcaadfb7a91a4",
+      "license": "CC BY 4.0",
+      "license_url": "https://github.com/sportsdataverse/hoopR-nba-stats-data/blob/main/LICENSE.md"
+    }
+  ],
+  "shot_training_sources": [
+    {
+      "file": "shots_2023.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_shots/shots_2023.parquet",
+      "sha256": "bcf15af9804e3c357d8c680f9c008b2ea5f3ebf5f0cce6dee55b75954e3f1c3d",
+      "license": "CC BY 4.0",
+      "retrieved_utc": "2026-10-26"
+    },
+    {
+      "file": "shots_2024.parquet",
+      "url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_shots/shots_2024.parquet",
+      "sha256": "699a34c2ce52133b20a8dbc50b3d9e3cc411449c050ff9d1ef1987a22da78c19",
+      "license": "CC BY 4.0",
+      "retrieved_utc": "2026-10-26"
+    }
+  ]
+}

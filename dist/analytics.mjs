@@ -1,0 +1,6 @@
+export const vulnerability=(a,b)=>(Math.max(0,(a.efg-.54)/.05)*Math.max(0,(b.allowed_efg-.54)/.05)+Math.max(0,(a.orb-.27)/.05)*Math.max(0,(b.allowed_orb-.27)/.05)+Math.max(0,(.13-a.tov)/.03)*Math.max(0,(.13-b.forced_tov)/.03))/3;
+export function features(a,b,rest=0){return {net_rating_gap:a.net-b.net,efg_gap:a.efg-b.efg,turnover_gap:a.tov-b.tov,rebound_gap:a.orb-b.orb,rest_gap:rest,elo_gap:a.elo-b.elo,vulnerability_gap:vulnerability(a,b)-vulnerability(b,a)}}
+export function probability(model,x){const contributions=model.features.map((f,i)=>(x[f]-model.mean[i])/model.scale[i]*model.coef[i]);const logit=model.intercept+contributions.reduce((a,b)=>a+b,0);return {p:1/(1+Math.exp(-logit)),contributions}}
+export function quantile(xs,q){const s=[...xs].sort((a,b)=>a-b),i=(s.length-1)*q,f=Math.floor(i);return s[f]+(s[Math.min(f+1,s.length-1)]-s[f])*(i-f)}
+export function wilson(m,n){if(!n)return [null,null];const z=1.96,p=m/n,den=1+z*z/n,mid=(p+z*z/(2*n))/den,rad=z*Math.sqrt(p*(1-p)/n+z*z/(4*n*n))/den;return [Math.max(0,mid-rad),Math.min(1,mid+rad)]}
+export function percentile(value,values){const v=values.filter(Number.isFinite);return !Number.isFinite(value)||!v.length?null:100*(v.filter(x=>x<value).length+.5*v.filter(x=>x===value).length)/v.length}

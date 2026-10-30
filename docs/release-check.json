@@ -1,0 +1,115 @@
+{
+  "checked_at_utc": "2026-10-30T19:08:37.518615+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Source integrity",
+      "passed": true,
+      "output": "Verified 11 cached source hashes."
+    },
+    {
+      "check": "Build offline app",
+      "passed": true,
+      "output": "Built /Users/anveshkk/Downloads/SkyRoute_Presentation/CourtVisionAI/CourtVisionAI_Standalone.html (9,499,047 bytes; 35 embedded datasets)"
+    },
+    {
+      "check": "Python analytics and API",
+      "passed": true,
+      "output": "................................                                         [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.12/site-packages/fastapi/testclient.py:1\n  /Users/anveshkk/Downloads/SkyRoute_Presentation/CourtVisionAI/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n32 passed, 1 warning in 4.26s"
+    },
+    {
+      "check": "browser_math",
+      "passed": true,
+      "output": "870 matchup combinations and interval edge cases passed\nPython API / JavaScript inference parity: 4 reference scenarios passed"
+    },
+    {
+      "check": "lineup_comparison",
+      "passed": true,
+      "output": "90 real-team/prior comparisons, filter fallback, ties and synthetic rank reversal passed.\n2000 lineup alternative searches and 30 self-contained export reconstructions passed."
+    },
+    {
+      "check": "lineup_workspace",
+      "passed": true,
+      "output": "PASS: 30 team save/export round-trips; imported-result isolation; deduplication; eight-save cap; invalid inputs, corruption and storage failures."
+    },
+    {
+      "check": "rotation_finder",
+      "passed": true,
+      "output": "PASS: 1674 player/threshold inclusion-exclusion partitions, 30 combined searches and export reconstructions, invalid and conflicting filters."
+    },
+    {
+      "check": "scenarios",
+      "passed": true,
+      "output": "PASS: 64 exact series cases vs exhaustive reference; 870 swap symmetries; clinch/invalid/sensitivity cases; similarity scaling/missing-data cases.\nBoston\u2013OKC baseline series: 30.13%; expected remaining: 5.714 games."
+    },
+    {
+      "check": "shot_evidence",
+      "passed": true,
+      "output": "PASS: 390 real team/filter decompositions reconcile; empty, absent-zone and invalid-probability cases passed."
+    },
+    {
+      "check": "standalone",
+      "passed": true,
+      "output": "PASS: standalone script compiles; all 35 datasets match source; new features bundled; no external data, stylesheet or module dependencies."
+    },
+    {
+      "check": "workspace",
+      "passed": true,
+      "output": "PASS: workspace round-trip, imported-output isolation, 11 invalid input cases, deduplication, 8-save cap, corrupt/oversized storage and storage failures."
+    }
+  ],
+  "sha256": {
+    "CourtVisionAI_Standalone.html": "7e78eb0c8a7b13474a0b884dc62a7cc6e9dc469282ee7855a655934eb4426f12",
+    "dist/analytics.mjs": "f2cde32f0f5f20dfb3983c5cfcbef10ad2ac9097aaa3bff5f9f892ae72f82dfa",
+    "dist/app.js": "97f9ce8cec0afdf507aa28fea4ea94567a2f4949101dfcecd850fccd629c01fc",
+    "dist/data.json": "cc9a3ad25610a9500d9d36dc0ca1c13ac1f94590ae252182a64dc107e6b69177",
+    "dist/evaluation.json": "48ba4dbde8262554e385ede02db752e01fecda4ab291849717078ccedfc1e685",
+    "dist/index.html": "901d4b0b059cafbcdbe72b5085771162ea9e35e98ee7437956b7991b9c43a53b",
+    "dist/lineup-comparison.mjs": "27e84cde6f3e20fa36aebd567eab52e3a738962aef32d9b67d7f3108090b2171",
+    "dist/lineup-workspace.mjs": "459fa7d1876a74a665631f27016c830d5014924c0e1647c61b316ad83e22f35c",
+    "dist/provenance.json": "e26e96124bbffdbe9d4b6f4a03491308fba8701a8c352c19c87172884045509e",
+    "dist/rotation-finder.mjs": "275484aafd47acc49a98637119a51bef6fe5006f2670d3ef7d0a7f0c0f4c54ac",
+    "dist/scenarios.mjs": "439745271d2da6fe2b5461067cf590cdf7c7b7f671422b0d0f1f5d1042dbfb19",
+    "dist/series-ui.mjs": "dac15c84ee8ee049956fba5a809c7e7a54e748939f504bfc427c782d10785b8a",
+    "dist/shot-insights.mjs": "07bcd42671546784b1fb969707ab9e055c402423e6cae5c12cdbc66e38d202bc",
+    "dist/shot_evaluation.json": "e4d567d0987be343a719c4634bf1f3a8c189113f7fd469aa6ff42831fabe9ac4",
+    "dist/shots/ATL.json": "9f25d7620a06a71cbceea33940ed4451761b387cb87d01842b419f7051019428",
+    "dist/shots/BKN.json": "825fdef7dc5ce937a7f37581c39bff4abf6de0d6300a011e999ecf321ceec388",
+    "dist/shots/BOS.json": "e5eda2b2e2299ecefed0d660981396eb92e497c212287bbc8c8523d05ec2d181",
+    "dist/shots/CHA.json": "5646fad5c119164349bc3e75dfe3e5294f96920e3ac4e9b52e9cfef99f0e5318",
+    "dist/shots/CHI.json": "e2eff5393f22cd68c7ae799ac22b9d61b7dfd4524fa6d05486500adadcd88a37",
+    "dist/shots/CLE.json": "435df30e437a49b8e1cbe16b8fc893cb710860ad13828086b77add350b5cfd69",
+    "dist/shots/DAL.json": "f914b60ebd9e848ad302bdc64b070b01aaf0f0be568096eec41d6e99889be3c4",
+    "dist/shots/DEN.json": "ec9ece960dbaac9d70cdd6c0b038feb2ac463f71215765305456fb4ef1c5fb17",
+    "dist/shots/DET.json": "8390d25cd49ee5b4c01106b5c4caaa5fd9ff297928a80906ed783e42420fba1c",
+    "dist/shots/GSW.json": "18f52d63e73411dd4729df2d5abfa3fda10b25905ef1d50cdd691319fd7d32f0",
+    "dist/shots/HOU.json": "9e35e398940af97740adc211c6f2a85a2c00dfb5ae9276e757f5db0a1d8e038a",
+    "dist/shots/IND.json": "6998f617a7871626f7f489f3e86a9b757b5264f43168c6b7a6c027ef0ca6eace",
+    "dist/shots/LAC.json": "ff94f9afb904439d40b6450726d5cc300fb677d858c3b2b6704f24246d1ff127",
+    "dist/shots/LAL.json": "1e32df1e81919c33cac68349013775396aafb96f6d8170d08a97442a0c63df9d",
+    "dist/shots/MEM.json": "de58b3af372bc402291a0148f577e2801618a21d45fda1f333fec654d0e4596b",
+    "dist/shots/MIA.json": "102fc58eaf84b1f45b8a324c67e034be8bc59f25f7737b45648bc720744d462b",
+    "dist/shots/MIL.json": "339ca63877df1b9db2118138be0a3e3a2e5fe36e716737123acda79dbbccf8bf",
+    "dist/shots/MIN.json": "88ac2da05aa8b7cd387238cecc88d843dfb8b7c09d65f72b64074d207bb2e676",
+    "dist/shots/NOP.json": "793a0df75f2c2653a975829ec49481ba4f802935db5f71b14ab93e64911a80d6",
+    "dist/shots/NYK.json": "b67e5a5823470cd6864cca3a745199f480f329f3bcc0da5364f38ef7c060d2f5",
+    "dist/shots/OKC.json": "ceac5df0499f234cbc151f7213744a773d7205b57ced579d334e31d2f0dc666e",
+    "dist/shots/ORL.json": "66a92df62f32e9b39791bc27beed44ac680e10e41fdf0f16457e2ec1a10c7ab0",
+    "dist/shots/PHI.json": "31c3ae9ee912086e5801ade3ba7d24d7d0d15fc8fad2ca2f164d5efb707b9a3b",
+    "dist/shots/PHX.json": "80f6880a3c3aa1c4fde7eb8071f3bf68209dd1a6d380d9e17cac7f12dd86adf6",
+    "dist/shots/POR.json": "efc3204d7bbb6dcc8741c54c1e8d0bcec48e529c4cf6f453e33501fab30185fa",
+    "dist/shots/SAC.json": "009bbced8f111f9261c902e70995ef8899c201c1b03379a5d4851a1a21ed8b09",
+    "dist/shots/SAS.json": "e79ea7a9f918378c61beb3b1daf02620f7591fff288180ac729780af2557cbcc",
+    "dist/shots/TOR.json": "3d7c828e0e642012b8d435f80685d97e4a41f72353fc217419a837cc5fa6176c",
+    "dist/shots/UTA.json": "3984dc443d026a79683743afd143a970c64849b91f091df812aa6e5506899241",
+    "dist/shots/WAS.json": "13221c06a343216eb558dc507c0ded768925d4ea839e4b3a19e62e9f5ad81a75",
+    "dist/spatial.json": "1bffc16ca31bc934cd738d8b244f1b580077c1c06ca48fbaba13d49149d5a593",
+    "dist/styles.css": "a7807d9748c873fdb80fbd911b328352755820c1984e080e53646ddeb3419eda",
+    "dist/workspace.mjs": "fde41db338a9fb153da8fff5eb45381f50fea455acdffea227fa7037cc477db6"
+  },
+  "limits": [
+    "Automated verification is not a guarantee of defect-free software.",
+    "Public repository and Devpost submission are separate steps.",
+    "Browser file-picker/download dialogs are not exercised by this script."
+  ]
+}

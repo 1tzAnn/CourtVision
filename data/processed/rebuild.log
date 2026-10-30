@@ -1,0 +1,536 @@
+Cached 6 verified CSV responses
+219527 shots; 2000 distinct lineups
+{
+  "selected": "elo",
+  "train_season": "2022-23",
+  "validation_season": "2023-24",
+  "test_season": "2024-25",
+  "split_counts": {
+    "train": 1073,
+    "validation": 1074,
+    "test": 1071
+  },
+  "tuning": {
+    "strength": {
+      "C": 10,
+      "validation_log_loss": 0.6381658288601451
+    },
+    "core": {
+      "C": 10,
+      "validation_log_loss": 0.6379885132426003
+    },
+    "experimental_mvi": {
+      "C": 10,
+      "validation_log_loss": 0.6378438191610563
+    },
+    "elo": {
+      "C": 10,
+      "validation_log_loss": 0.6194510923743323
+    }
+  },
+  "results": {
+    "strength": {
+      "log_loss": 0.6231302170730368,
+      "brier": 0.21678937653805683,
+      "accuracy": 0.6470588235294118,
+      "n": 1071,
+      "calibration": [
+        {
+          "predicted": 0.16595067692495474,
+          "observed": 0.0,
+          "n": 7
+        },
+        {
+          "predicted": 0.25213413407818847,
+          "observed": 0.22727272727272727,
+          "n": 44
+        },
+        {
+          "predicted": 0.3559944491272034,
+          "observed": 0.264,
+          "n": 125
+        },
+        {
+          "predicted": 0.45241610326958315,
+          "observed": 0.44711538461538464,
+          "n": 208
+        },
+        {
+          "predicted": 0.5520215112695019,
+          "observed": 0.49372384937238495,
+          "n": 239
+        },
+        {
+          "predicted": 0.650639952208364,
+          "observed": 0.6771300448430493,
+          "n": 223
+        },
+        {
+          "predicted": 0.7491168827888225,
+          "observed": 0.7485029940119761,
+          "n": 167
+        },
+        {
+          "predicted": 0.8441185346667679,
+          "observed": 0.8909090909090909,
+          "n": 55
+        },
+        {
+          "predicted": 0.9171039681663385,
+          "observed": 0.6666666666666666,
+          "n": 3
+        }
+      ]
+    },
+    "core": {
+      "log_loss": 0.6182927358860967,
+      "brier": 0.21464000704908698,
+      "accuracy": 0.6573295985060691,
+      "n": 1071,
+      "calibration": [
+        {
+          "predicted": 0.17088493209109296,
+          "observed": 0.0,
+          "n": 10
+        },
+        {
+          "predicted": 0.25908424745258024,
+          "observed": 0.25925925925925924,
+          "n": 54
+        },
+        {
+          "predicted": 0.3547688029403522,
+          "observed": 0.2711864406779661,
+          "n": 118
+        },
+        {
+          "predicted": 0.4530618632184934,
+          "observed": 0.417910447761194,
+          "n": 201
+        },
+        {
+          "predicted": 0.5483480871631802,
+          "observed": 0.5150214592274678,
+          "n": 233
+        },
+        {
+          "predicted": 0.6479247195478883,
+          "observed": 0.6754385964912281,
+          "n": 228
+        },
+        {
+          "predicted": 0.7477976743959805,
+          "observed": 0.7421383647798742,
+          "n": 159
+        },
+        {
+          "predicted": 0.8426425461300588,
+          "observed": 0.875,
+          "n": 64
+        },
+        {
+          "predicted": 0.9107904224616792,
+          "observed": 0.75,
+          "n": 4
+        }
+      ]
+    },
+    "experimental_mvi": {
+      "log_loss": 0.6179723899412689,
+      "brier": 0.2145627081234494,
+      "accuracy": 0.6507936507936508,
+      "n": 1071,
+      "calibration": [
+        {
+          "predicted": 0.09623705178858707,
+          "observed": 0.0,
+          "n": 1
+        },
+        {
+          "predicted": 0.174838913681955,
+          "observed": 0.1111111111111111,
+          "n": 9
+        },
+        {
+          "predicted": 0.2574984970205269,
+          "observed": 0.21428571428571427,
+          "n": 56
+        },
+        {
+          "predicted": 0.35617323734318795,
+          "observed": 0.2803030303030303,
+          "n": 132
+        },
+        {
+          "predicted": 0.4545382685664889,
+          "observed": 0.45161290322580644,
+          "n": 186
+        },
+        {
+          "predicted": 0.5498904138284433,
+          "observed": 0.5021459227467812,
+          "n": 233
+        },
+        {
+          "predicted": 0.6490841324032076,
+          "observed": 0.6622222222222223,
+          "n": 225
+        },
+        {
+          "predicted": 0.7477491475313494,
+          "observed": 0.7581699346405228,
+          "n": 153
+        },
+        {
+          "predicted": 0.8399198336821284,
+          "observed": 0.8611111111111112,
+          "n": 72
+        },
+        {
+          "predicted": 0.9095630208608081,
+          "observed": 0.75,
+          "n": 4
+        }
+      ]
+    },
+    "elo": {
+      "log_loss": 0.6130409459826465,
+      "brier": 0.21270510970789122,
+      "accuracy": 0.6657329598506069,
+      "n": 1071,
+      "calibration": [
+        {
+          "predicted": 0.08249236661626373,
+          "observed": 0.0,
+          "n": 3
+        },
+        {
+          "predicted": 0.16177106842027095,
+          "observed": 0.08333333333333333,
+          "n": 12
+        },
+        {
+          "predicted": 0.25599663480969514,
+          "observed": 0.20833333333333334,
+          "n": 72
+        },
+        {
+          "predicted": 0.3551093936907267,
+          "observed": 0.319672131147541,
+          "n": 122
+        },
+        {
+          "predicted": 0.4543680705087784,
+          "observed": 0.4057142857142857,
+          "n": 175
+        },
+        {
+          "predicted": 0.552184670442004,
+          "observed": 0.5805084745762712,
+          "n": 236
+        },
+        {
+          "predicted": 0.6456103623462284,
+          "observed": 0.6036036036036037,
+          "n": 222
+        },
+        {
+          "predicted": 0.7484781311358646,
+          "observed": 0.7605633802816901,
+          "n": 142
+        },
+        {
+          "predicted": 0.8385037542374818,
+          "observed": 0.8648648648648649,
+          "n": 74
+        },
+        {
+          "predicted": 0.9173564407764127,
+          "observed": 0.9230769230769231,
+          "n": 13
+        }
+      ]
+    },
+    "home_base_rate": {
+      "log_loss": 0.6899354646909294,
+      "brier": 0.2483941441352056,
+      "accuracy": 0.5424836601307189,
+      "n": 1071,
+      "calibration": [
+        {
+          "predicted": 0.5565905915230555,
+          "observed": 0.5424836601307189,
+          "n": 1071
+        }
+      ]
+    }
+  },
+  "bootstrap": "60 training-week block bootstrap refits; 10th\u201390th percentile model-instability interval, not an outcome guarantee",
+  "excluded_games": 631,
+  "audit": {
+    "season": "2025-26",
+    "n": 1071,
+    "results": {
+      "strength": {
+        "log_loss": 0.6150154103744835,
+        "brier": 0.21329755971172362,
+        "accuracy": 0.6554621848739496,
+        "n": 1071,
+        "calibration": [
+          {
+            "predicted": 0.16898860604695656,
+            "observed": 0.14285714285714285,
+            "n": 7
+          },
+          {
+            "predicted": 0.2591107168052831,
+            "observed": 0.1509433962264151,
+            "n": 53
+          },
+          {
+            "predicted": 0.3524952723025567,
+            "observed": 0.21008403361344538,
+            "n": 119
+          },
+          {
+            "predicted": 0.45287221327548505,
+            "observed": 0.49214659685863876,
+            "n": 191
+          },
+          {
+            "predicted": 0.5515852374515348,
+            "observed": 0.5418326693227091,
+            "n": 251
+          },
+          {
+            "predicted": 0.6454404107790305,
+            "observed": 0.6339285714285714,
+            "n": 224
+          },
+          {
+            "predicted": 0.7467201294628957,
+            "observed": 0.79375,
+            "n": 160
+          },
+          {
+            "predicted": 0.8384252901712477,
+            "observed": 0.828125,
+            "n": 64
+          },
+          {
+            "predicted": 0.9121070277975087,
+            "observed": 1.0,
+            "n": 2
+          }
+        ]
+      },
+      "core": {
+        "log_loss": 0.6206838821364282,
+        "brier": 0.21609381321972332,
+        "accuracy": 0.646125116713352,
+        "n": 1071,
+        "calibration": [
+          {
+            "predicted": 0.17691160225903996,
+            "observed": 0.0,
+            "n": 8
+          },
+          {
+            "predicted": 0.25587929066102316,
+            "observed": 0.1836734693877551,
+            "n": 49
+          },
+          {
+            "predicted": 0.3561739323386279,
+            "observed": 0.3023255813953488,
+            "n": 129
+          },
+          {
+            "predicted": 0.4543132329264523,
+            "observed": 0.46111111111111114,
+            "n": 180
+          },
+          {
+            "predicted": 0.5515207374903253,
+            "observed": 0.5637065637065637,
+            "n": 259
+          },
+          {
+            "predicted": 0.6459776045829024,
+            "observed": 0.5947136563876652,
+            "n": 227
+          },
+          {
+            "predicted": 0.74637666392185,
+            "observed": 0.7797619047619048,
+            "n": 168
+          },
+          {
+            "predicted": 0.8414111333640898,
+            "observed": 0.88,
+            "n": 50
+          },
+          {
+            "predicted": 0.9098009202657454,
+            "observed": 1.0,
+            "n": 1
+          }
+        ]
+      },
+      "experimental_mvi": {
+        "log_loss": 0.6219458360392496,
+        "brier": 0.21666669459627186,
+        "accuracy": 0.642390289449113,
+        "n": 1071,
+        "calibration": [
+          {
+            "predicted": 0.17336798280035345,
+            "observed": 0.125,
+            "n": 8
+          },
+          {
+            "predicted": 0.2556083306909011,
+            "observed": 0.1568627450980392,
+            "n": 51
+          },
+          {
+            "predicted": 0.35682774834314823,
+            "observed": 0.31007751937984496,
+            "n": 129
+          },
+          {
+            "predicted": 0.4538908625088756,
+            "observed": 0.4731182795698925,
+            "n": 186
+          },
+          {
+            "predicted": 0.5506352407214842,
+            "observed": 0.5528455284552846,
+            "n": 246
+          },
+          {
+            "predicted": 0.6467270099815998,
+            "observed": 0.591304347826087,
+            "n": 230
+          },
+          {
+            "predicted": 0.7466478025585737,
+            "observed": 0.7878787878787878,
+            "n": 165
+          },
+          {
+            "predicted": 0.8382245844692645,
+            "observed": 0.8727272727272727,
+            "n": 55
+          },
+          {
+            "predicted": 0.9025247614743738,
+            "observed": 1.0,
+            "n": 1
+          }
+        ]
+      },
+      "elo": {
+        "log_loss": 0.5995625777221784,
+        "brier": 0.2062962457961005,
+        "accuracy": 0.6722689075630253,
+        "n": 1071,
+        "calibration": [
+          {
+            "predicted": 0.16563971771582736,
+            "observed": 0.047619047619047616,
+            "n": 21
+          },
+          {
+            "predicted": 0.26507651933943344,
+            "observed": 0.13793103448275862,
+            "n": 58
+          },
+          {
+            "predicted": 0.35206872151552404,
+            "observed": 0.3252032520325203,
+            "n": 123
+          },
+          {
+            "predicted": 0.45382015817092963,
+            "observed": 0.425531914893617,
+            "n": 188
+          },
+          {
+            "predicted": 0.5521721065295321,
+            "observed": 0.5342465753424658,
+            "n": 219
+          },
+          {
+            "predicted": 0.6504795595287026,
+            "observed": 0.6589861751152074,
+            "n": 217
+          },
+          {
+            "predicted": 0.7478651453389169,
+            "observed": 0.7962962962962963,
+            "n": 162
+          },
+          {
+            "predicted": 0.8415445066758519,
+            "observed": 0.84,
+            "n": 75
+          },
+          {
+            "predicted": 0.9212844618080858,
+            "observed": 0.875,
+            "n": 8
+          }
+        ]
+      },
+      "home_base_rate": {
+        "log_loss": 0.6884496056741044,
+        "brier": 0.24765439784078658,
+        "accuracy": 0.5490196078431373,
+        "n": 1071,
+        "calibration": [
+          {
+            "predicted": 0.5565905915230555,
+            "observed": 0.5490196078431373,
+            "n": 1071
+          }
+        ]
+      }
+    },
+    "protocol": "Fresh season evaluated after predeclared Experiment 02; never used for selection or fitting"
+  },
+  "elo_constants": {
+    "K": 20,
+    "home_offset": 75,
+    "scale": 400,
+    "season_reset": 1500
+  },
+  "mvi_ablation": {
+    "log_loss_improvement": 0.00032034594482779097,
+    "interval_95": [
+      -0.0010457346578895072,
+      0.0016262901889812415
+    ],
+    "bootstrap_replicates": 2000,
+    "method": "Paired held-out week-block bootstrap; positive favors MVI"
+  }
+}
+Validated leaves 7 0.6494517196814664
+Validated leaves 15 0.6489646198422028
+{
+  "location_context": {
+    "log_loss": 0.64865,
+    "brier": 0.22881,
+    "accuracy": 0.62399
+  },
+  "shot_value_baseline": {
+    "log_loss": 0.67413,
+    "brier": 0.2406,
+    "accuracy": 0.58495
+  },
+  "overall_baseline": {
+    "log_loss": 0.69111,
+    "brier": 0.24898,
+    "accuracy": 0.53279
+  }
+}

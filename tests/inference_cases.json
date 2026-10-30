@@ -1,0 +1,26 @@
+[
+  {
+    "home": "BOS",
+    "away": "OKC",
+    "rest_gap": 0,
+    "expected": 0.45960698331177635
+  },
+  {
+    "home": "DEN",
+    "away": "LAL",
+    "rest_gap": 2,
+    "expected": 0.5539859823337101
+  },
+  {
+    "home": "NYK",
+    "away": "BOS",
+    "rest_gap": -3,
+    "expected": 0.3994189737611105
+  },
+  {
+    "home": "SAS",
+    "away": "CLE",
+    "rest_gap": 6,
+    "expected": 0.22936211124899186
+  }
+]
