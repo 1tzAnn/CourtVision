@@ -35,7 +35,6 @@ JavaScript, HTML, CSS, SVG, Canvas, Python, pandas, scikit-learn, FastAPI, SQLit
 - Participant eligibility: the official rules welcome students; participant eligibility must be confirmed by the participant.
 - Video: optional, not required.
 
-The official rules list October 31, 2026 at 11:59 PM Pacific; the page header rounds this to November 1 at midnight PDT. Use October 31 at 11:59 PM Pacific as the cutoff and submit earlier. Rechecked October 31, 2026: https://aqxanalyticsfour.devpost.com/rules
 
 Public deployment is an optional convenience, not an explicitly stated requirement on the rules page. Ensure the submitted prototype is accessible to judges through the public repository or another usable link. A private preview URL is insufficient.
 

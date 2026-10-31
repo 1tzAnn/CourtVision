@@ -62,7 +62,7 @@ Executed October 25, 2026 (America/Los_Angeles).
 - Series-to-matchup navigation verified with Denver versus the Lakers, Lakers home court: matchup selects LAL home and DEN away.
 - Export button produced a real JSON download; the downloaded file contained fitted coefficients, all assumptions, the selected DEN/LAL scenario and finishing probabilities summing to one.
 - Search “Curry” exposes explicit Stephen/Seth results; choosing Stephen updates his report. Nearest-profile Compare selects Jordan Poole and retains comparison-control focus. Position filtering is functional.
-- Series Lab and Player Analytics checked at 390×844 with document width exactly 390 (no horizontal page overflow). Desktop Series Lab screenshot saved as `docs/series-lab.png`. Browser error/warning log was empty after the verified flows.
+- Series Lab and Player Analytics checked at 390×844 with document width exactly 390 (no horizontal page overflow). Desktop Series Lab screenshot saved as [archived design capture]. Browser error/warning log was empty after the verified flows.
 - Repaired stale HTTP stylesheet/module caching with content-derived asset URLs. Slider keeps its DOM node while dragging, updating the label during movement and recalculating on release.
 
 No playoff validation, causal player-fit claim, public GitHub publication or new external hosting deployment is implied by these changes.
@@ -72,7 +72,7 @@ No playoff validation, causal player-fit claim, public GitHub publication or new
 - `node tests/shot_evidence.mjs`: 390 real team/filter cases across all 30 teams reconcile independently calculated observed PPS with the shot-mix/conversion decomposition. Zone residual contributions sum to the full observed-minus-modeled gap. Single-zone mix contribution is zero; missing-zone, empty-filter and invalid-probability cases pass.
 - Browser Boston example: 108.61 league points/100 attempts −0.27 mix +3.86 conversion =112.21 observed (rounded). Its model residual is +4.07 points/100 attempts; rim contribution is +2.63.
 - Tatum corner-three filter: 46 attempts triggers the small-sample flag; mix contribution is zero. Selecting two-pointers simultaneously gives a clear no-attempts message.
-- Shot page document width matched its 390px mobile viewport. Desktop evidence panel inspected and saved as `docs/shot-evidence.png`.
+- Shot page document width matched its 390px mobile viewport. Desktop evidence panel inspected and saved as [archived design capture].
 - Calibration markers now have bounded 3–18 radii; browser inspection verified shot tooltips say “shots”, not “games”. Model estimates themselves are unchanged.
 - Async render errors from stale shot requests are ignored so they cannot overwrite a newly selected route.
 - Shot-evidence export is implemented; this round verified its calculation payload and bundle, but did not perform a separate browser download check for that button.
@@ -83,35 +83,42 @@ No playoff validation, causal player-fit claim, public GitHub publication or new
 - Browser verified save → reset → restore and persistence across a full reload. A Boston 2–0 scenario restored at 63.9%.
 - Browser file import verified with a local test JSON containing DEN vs LAL, 1–2, Lakers home court, +20 Elo, and deliberately false imported coefficients/predictions. The app ignored those outputs and recalculated 34.3%; status message explicitly confirmed this behavior.
 - Contextual matchup links verified: importing DEN/LAL, inspecting the unadjusted matchup, then selecting home-team shooting opened LAL with all-player/all-zone filters.
-- New workspace at 390px had no document overflow; browser error/warning logs were empty. Screenshot saved to `docs/research-workspace.png`.
+- New workspace at 390px had no document overflow; browser error/warning logs were empty. Screenshot saved to [archived design capture].
 - Browser storage is origin/file-address dependent and can be unavailable in private/file contexts. JSON export is the portable backup. No cloud account or external storage service is used.
 
 ### Lineup comparison update — October 27, 2026
 
-Added paired observed-unit comparisons, shared/exclusive players, observed-data weights, prior sensitivity, and JSON export. Automated checks cover 90 real team/prior comparisons, selector fallback, ties and rank reversal. Browser checks confirmed Boston default difference −13.6, selecting the other unit swaps the pair to +13.6, a 500-possession threshold leaves two Boston units, and changing to Denver recomputes the pair. No browser console errors observed. Screenshot: `lineup-comparison.png`. The new JSON download has not been exercised through the browser download dialog.
+Added paired observed-unit comparisons, shared/exclusive players, observed-data weights, prior sensitivity, and JSON export. Automated checks cover 90 real team/prior comparisons, selector fallback, ties and rank reversal. Browser checks confirmed Boston default difference −13.6, selecting the other unit swaps the pair to +13.6, a 500-possession threshold leaves two Boston units, and changing to Denver recomputes the pair. No browser console errors observed. Screenshot: [archived design capture]. The new JSON download has not been exercised through the browser download dialog.
 
 ### Four-player overlap explorer — October 27, 2026
 
-Verified alternative enumeration and sample ordering for all 2,000 available units. Reconstructed all sensitivity rankings from JSON-serialized exports for each of 30 teams. Browser-tested Kornet alternative selection (Boston A minus B −11.5) and ranked-table Use as A (+3.3 with the tested pair). JSON export schema is now 2; exports include eligible and all available team units plus formulas. Native browser download dialog remains untested. Screenshot: `lineup-alternatives.png`.
+Verified alternative enumeration and sample ordering for all 2,000 available units. Reconstructed all sensitivity rankings from JSON-serialized exports for each of 30 teams. Browser-tested Kornet alternative selection (Boston A minus B −11.5) and ranked-table Use as A (+3.3 with the tested pair). JSON export schema is now 2; exports include eligible and all available team units plus formulas. Native browser download dialog remains untested. Screenshot: [archived design capture].
 
 ### App-wide visual redesign — October 28, 2026
 
 Simplified product branding and simplified navigation and page copy. Applied warm paper backgrounds, dark text, orange/navy chart colors, larger typography, and revised controls across all eight routes. Removed external font imports; standalone and served versions use the same local font stacks.
 
-Browser: all eight routes loaded without console errors. All routes checked at 390px width, with document width equal to viewport width. Inspected overview, shot map and mobile series layout visually. Main text contrast 12.96:1, secondary text contrast above 5:1; primary button white-on-orange exceeds 4.5:1. This is targeted contrast checking, not a complete accessibility audit. Existing analytics suites and standalone integrity checks pass. Screenshots: redesign-overview.png and redesign-mobile.png.
+Browser: all eight routes loaded without console errors. All routes checked at 390px width, with document width equal to viewport width. Inspected overview, shot map and mobile series layout visually. Main text contrast 12.96:1, secondary text contrast above 5:1; primary button white-on-orange exceeds 4.5:1. This is targeted contrast checking, not a complete accessibility audit. Existing analytics suites and standalone integrity checks pass. Screenshots: [archived design capture] and [archived design capture].
 
 ### Guided start and reduced brightness — October 28, 2026
 
-Muted sage/deep green palette applied throughout. Browser-verified same-team action blocking; Denver/Lakers carried into Matchups and Series simulator. Quick guide opens on the matchup page. All eight routes checked at 390px: no page-wide overflow or loading error. Standalone integrity checks pass. Screenshots: guided-start-desktop.png and guided-start-mobile.png.
+Muted sage/deep green palette applied throughout. Browser-verified same-team action blocking; Denver/Lakers carried into Matchups and Series simulator. Quick guide opens on the matchup page. All eight routes checked at 390px: no page-wide overflow or loading error. Standalone integrity checks pass. Screenshots: [archived design capture] and [archived design capture].
 
 ### Saved lineup studies — October 28, 2026
 
-Thirty team round-trips pass for saved inputs and exported JSON. Imported ratings and results are ignored. Tests cover invalid schema/season/team/units/settings, deduplication, eight-entry cap, corrupt or oversized storage and write failure. Browser verified saving Boston at prior 500, switching to Denver, restoring Boston, reloading and restoring prior 500 again. File-picker import UI was not exercised; import validation was tested directly. Screenshot: saved-lineups.png.
+Thirty team round-trips pass for saved inputs and exported JSON. Imported ratings and results are ignored. Tests cover invalid schema/season/team/units/settings, deduplication, eight-entry cap, corrupt or oversized storage and write failure. Browser verified saving Boston at prior 500, switching to Denver, restoring Boston, reloading and restoring prior 500 again. File-picker import UI was not exercised; import validation was tested directly. Screenshot: [archived design capture].
 
 ### Rotation finder — October 28, 2026
 
-Passed 1,674 player/threshold inclusion-exclusion partitions across 30 teams, 30 combined searches, exported-result reconstructions, invalid inputs and conflicts. Browser: Boston/Tatum included/Porzingis excluded at 100 possessions returns seven units; Use as A selects the candidate; same-player conflict disables export; changing team clears player constraints. Native export download was not exercised. Preview initially remained at loading; a reload resolved it, and no console errors were recorded. Screenshot: rotation-finder.png.
+Passed 1,674 player/threshold inclusion-exclusion partitions across 30 teams, 30 combined searches, exported-result reconstructions, invalid inputs and conflicts. Browser: Boston/Tatum included/Porzingis excluded at 100 possessions returns seven units; Use as A selects the candidate; same-player conflict disables export; changing team clears player constraints. Native export download was not exercised. Preview initially remained at loading; a reload resolved it, and no console errors were recorded. Screenshot: [archived design capture].
 
 ### Release check — October 30, 2026
 
 Added a single-command release check and ran it successfully: 11 check groups, including 32 Python tests, eight JavaScript suites and 11 cached-source hashes. Offline artifact and 46 distributed files fingerprinted in release-check.json. One upstream Starlette/httpx deprecation warning remains; no test failed. Updated README branding/screenshot and submission narrative to match current navigation, features and rules. GitHub account 1tzAnn supplied; publication awaits sign-in. No Devpost submission has been performed.
+
+
+## Court edition — October 31, 2026
+
+Removed competition branding from current text and the app footer. Replaced sage and green surfaces with charcoal, leather orange and warm neutral tones; removed remote font imports. Historical screenshots were moved out of the public package into a local design archive; current desktop/mobile screenshots are included.
+
+All 32 Python tests and eight JavaScript suites passed, alongside 11 source checksums and the 35-dataset offline-build check. Browser checks: all eight routes render at 390px with document width 390px; same-team comparison is disabled with explanation; valid matchup navigation works. Browser error/warning logs were empty. Automated edge cases cover invalid imports, storage failures, series clinches, all 870 team pairings, empty shot samples and constrained lineup searches. These checks do not exhaust every possible browser or interaction.

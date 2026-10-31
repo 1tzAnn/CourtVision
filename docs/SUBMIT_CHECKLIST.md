@@ -12,7 +12,7 @@ Deadline: October 31, 2026 at 11:59 PM Pacific. Submit early.
 
 1. Confirm the public repository contains the current source, LICENSE, DATA_LICENSES.md, tests and standalone HTML—not just an empty repository.
 2. Open the prototype link in a signed-out browser. Check the home screen and one matchup.
-3. Use the current screenshot (guided-start-desktop.png) and, if useful, rotation-finder.png. Earlier screenshots show previous designs.
+3. Use guided-start-desktop.png or guided-start-mobile.png; both show the current design.
 4. Enter the correct team members and confirm student eligibility.
 5. Describe Courtvision as a historical research app. Do not claim live injury prediction, proven coaching impact or a validated playoff forecast.
 6. Check all required Devpost fields. A video is optional under the rules checked October 31.

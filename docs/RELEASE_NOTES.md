@@ -1,8 +1,7 @@
-Courtvision is a historical NBA research app for exploring matchups, series scenarios, players, rotations and shot patterns.
+Courtvision 1.0.1 — court edition
+
+Charcoal navigation, leather-orange actions, warm court tones, and clearer headings. Competition references removed from the current app and project materials. Updated desktop/mobile screenshots and fully offline downloads.
 
 Prototype: https://1tzann.github.io/CourtVision/
-Source: https://github.com/1tzAnn/CourtVision
 
-Download Courtvision.html and open it in a browser for the complete offline prototype. Courtvision_Source.zip includes editable source, cached data, attribution, model artifacts and tests.
-
-Verified: 32 Python tests, eight JavaScript suites, 11 cached-source hashes, and GitHub automated checks. Historical estimates are not live odds; lineup comparisons do not establish causal substitution effects.
+Validation: 32 Python tests; eight JavaScript suites; 11 source checksums; all eight mobile routes checked without page overflow; no browser errors in the tested flows. Historical analysis and model limitations remain visible.

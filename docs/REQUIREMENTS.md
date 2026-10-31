@@ -13,5 +13,4 @@
 
 Video is optional. Open the final prototype and repository while signed out to confirm judge access.
 
-Rules checked October 31: https://aqxanalyticsfour.devpost.com/rules
 Deadline: October 31, 2026, 11:59 PM Pacific.

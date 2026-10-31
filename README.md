@@ -4,7 +4,7 @@
 
 **Basketball questions, backed by inspectable evidence.**
 
-A reproducible historical NBA research platform for AQX Sports Analytics Data Bowl 4.0. It helps analysts inspect matchups, compare player profiles, investigate observed lineups, and turn statistical patterns into testable coaching hypotheses.
+A reproducible historical NBA research platform. It helps analysts inspect matchups, compare player profiles, investigate observed lineups, and turn statistical patterns into testable coaching hypotheses.
 
 This is a working prototype with real data and measured evaluation results. It is a **2024–25 historical research edition**, not a live prediction or trade recommendation service.
 
