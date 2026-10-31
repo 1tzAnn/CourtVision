@@ -1,6 +1,6 @@
 # Courtvision
 
-[Open prototype](https://1tzann.github.io/CourtVision/) · [Public source](https://github.com/1tzAnn/CourtVision) · [Submission description and walkthrough](docs/SUBMISSION.md)
+[Open prototype](https://1tzann.github.io/CourtVision/) · [Public source](https://github.com/1tzAnn/CourtVision) · [Submission package](docs/SUBMISSION_READY.md) · [Description and walkthrough](docs/SUBMISSION.md)
 
 **Historical NBA analysis with reproducible results.**
 
