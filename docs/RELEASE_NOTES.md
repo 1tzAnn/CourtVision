@@ -1,7 +1,5 @@
-Courtvision 1.0.2 — terminology update
+Courtvision 1.0.3
 
-Revised navigation, page headings, analysis guidance and documentation to use direct, professional basketball terminology. Updated desktop and mobile previews.
+Restored the “Start with two teams” headline and approachable overview copy while retaining precise analytical labels and guidance.
 
 Prototype: https://1tzann.github.io/CourtVision/
-
-Verification: all 32 Python tests, eight JavaScript suites and source-integrity checks passed. All eight pages were checked in the browser; no console errors were observed.

@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-31T15:07:38.949103+00:00",
+  "checked_at_utc": "2026-10-31T15:11:35.121508+00:00",
   "status": "passed",
   "checks": [
     {
@@ -10,12 +10,12 @@
     {
       "check": "Build offline app",
       "passed": true,
-      "output": "Built ./Courtvision.html (9,502,707 bytes; 35 embedded datasets)"
+      "output": "Built ./Courtvision.html (9,502,683 bytes; 35 embedded datasets)"
     },
     {
       "check": "Python analytics and API",
       "passed": true,
-      "output": "................................                                         [100%]\n=============================== warnings summary ===============================\n../CourtVisionAI/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1\n  <python-environment>/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n32 passed, 1 warning in 3.03s"
+      "output": "................................                                         [100%]\n=============================== warnings summary ===============================\n../CourtVisionAI/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1\n  <python-environment>/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n32 passed, 1 warning in 3.77s"
     },
     {
       "check": "browser_math",
@@ -59,12 +59,12 @@
     }
   ],
   "sha256": {
-    "Courtvision.html": "c30e0f442085fcac209931c8051246a0735fb86d4faf6a9411cc2d95285e1aad",
+    "Courtvision.html": "ee6c9de208d2f62ce0b23d4b7bee79a7bed074f32211bc2c91e431dec804dc83",
     "dist/analytics.mjs": "f2cde32f0f5f20dfb3983c5cfcbef10ad2ac9097aaa3bff5f9f892ae72f82dfa",
-    "dist/app.js": "2bc7b5503f10599cf59a715fdca36572f067c5d31c6c4bdb9ac0cd3c7520a861",
+    "dist/app.js": "4f16a7c8e730fa9e7e29396b9cb6ee000aa2ec2461ce0ccf8c37cc52539cac4d",
     "dist/data.json": "cc9a3ad25610a9500d9d36dc0ca1c13ac1f94590ae252182a64dc107e6b69177",
     "dist/evaluation.json": "48ba4dbde8262554e385ede02db752e01fecda4ab291849717078ccedfc1e685",
-    "dist/index.html": "eec2623aca472f8a57cd958d28f16a06ec7874392e39e9ed9188378887d2b50c",
+    "dist/index.html": "2f7a1e38f162fe6679d5a9320a3b6a6a663779870c7e16ad866c7267c8950b62",
     "dist/lineup-comparison.mjs": "27e84cde6f3e20fa36aebd567eab52e3a738962aef32d9b67d7f3108090b2171",
     "dist/lineup-workspace.mjs": "ae47f51d33d2074d6c519f3b9f55a90317779c4007670592ac37ff91fb124c60",
     "dist/provenance.json": "e26e96124bbffdbe9d4b6f4a03491308fba8701a8c352c19c87172884045509e",
