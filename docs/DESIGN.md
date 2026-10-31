@@ -2,7 +2,7 @@
 
 Updated October 28, 2026.
 
-Courtvision is a basketball notebook: warm paper, dark ink, burnt orange and navy comparisons. The product name is Courtvision, without an AI badge. Keep existing filenames for compatibility with saved local links.
+Courtvision is a basketball notebook: warm paper, dark ink, burnt orange and navy comparisons. The product name is Courtvision, with straightforward basketball terminology. Use Courtvision consistently across the app and downloads.
 
 Use system sans-serif for controls and body text, Georgia for page headings and headline figures. All fonts work offline. Body text is 15px; supporting copy should normally be 12–14px. Use plain section names and useful descriptions rather than slogans or claims of intelligence.
 

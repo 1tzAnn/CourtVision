@@ -10,7 +10,7 @@ EXCLUDED = {'.git', '.venv', '__pycache__', '.pytest_cache', '.openai', '.sites-
 
 
 def main():
-    target = ROOT.parent / 'CourtVisionAI_Source.zip'
+    target = ROOT.parent / 'Courtvision_Source.zip'
     with tempfile.NamedTemporaryFile(dir=target.parent, suffix='.zip', delete=False) as temp:
         temporary = Path(temp.name)
     try:

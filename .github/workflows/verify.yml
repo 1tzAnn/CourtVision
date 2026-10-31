@@ -23,5 +23,5 @@ jobs:
         with:
           name: courtvision-verified-app
           path: |
-            CourtVisionAI_Standalone.html
+            Courtvision.html
             docs/release-check.json

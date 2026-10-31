@@ -2,7 +2,7 @@ import {readFileSync} from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 const root = new URL('../', import.meta.url);
-const html = readFileSync(new URL('CourtVisionAI_Standalone.html', root), 'utf8');
+const html = readFileSync(new URL('Courtvision.html', root), 'utf8');
 const payload = html.match(/<script id="courtvision-data" type="application\/json">([\s\S]*?)<\/script>/)[1];
 const data = JSON.parse(payload);
 assert.equal(Object.keys(data).length, 35);

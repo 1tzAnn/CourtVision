@@ -5,7 +5,7 @@ Deadline: October 31, 2026 at 11:59 PM Pacific. Submit early.
 ## Links to include
 
 - Source: https://github.com/1tzAnn/CourtVision (repository exists; release upload must be verified).
-- Prototype: use the verified GitHub Pages URL once deployment succeeds. Until then, judges can download CourtVisionAI_Standalone.html from the published repository and open it in a browser.
+- Prototype: use the verified GitHub Pages URL once deployment succeeds. Until then, judges can download Courtvision.html from the published repository and open it in a browser.
 - Description: copy the short project description from SUBMISSION.md.
 
 ## Before pressing Submit
@@ -15,7 +15,7 @@ Deadline: October 31, 2026 at 11:59 PM Pacific. Submit early.
 3. Use the current screenshot (guided-start-desktop.png) and, if useful, rotation-finder.png. Earlier screenshots show previous designs.
 4. Enter the correct team members and confirm student eligibility.
 5. Describe Courtvision as a historical research app. Do not claim live injury prediction, proven coaching impact or a validated playoff forecast.
-6. Check all required Devpost fields. A video is optional under the rules checked October 30.
+6. Check all required Devpost fields. A video is optional under the rules checked October 31.
 7. Submit, then verify Devpost shows a submitted entry. Saving a draft is not submission.
 
 ## Three-minute demo

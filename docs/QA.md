@@ -96,7 +96,7 @@ Verified alternative enumeration and sample ordering for all 2,000 available uni
 
 ### App-wide visual redesign — October 28, 2026
 
-Removed AI branding from the product UI and simplified navigation and page copy. Applied warm paper backgrounds, dark text, orange/navy chart colors, larger typography, and revised controls across all eight routes. Removed external font imports; standalone and served versions use the same local font stacks.
+Simplified product branding and simplified navigation and page copy. Applied warm paper backgrounds, dark text, orange/navy chart colors, larger typography, and revised controls across all eight routes. Removed external font imports; standalone and served versions use the same local font stacks.
 
 Browser: all eight routes loaded without console errors. All routes checked at 390px width, with document width equal to viewport width. Inspected overview, shot map and mobile series layout visually. Main text contrast 12.96:1, secondary text contrast above 5:1; primary button white-on-orange exceeds 4.5:1. This is targeted contrast checking, not a complete accessibility audit. Existing analytics suites and standalone integrity checks pass. Screenshots: redesign-overview.png and redesign-mobile.png.
 

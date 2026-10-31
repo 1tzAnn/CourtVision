@@ -28,19 +28,19 @@ JavaScript, HTML, CSS, SVG, Canvas, Python, pandas, scikit-learn, FastAPI, SQLit
 
 ## Required submission items and status
 
-- Working prototype: `CourtVisionAI_Standalone.html` is built and verified. Judges can download and open it locally. The filename is retained for compatibility; the product is Courtvision.
-- Public GitHub source: destination account **1tzAnn** supplied. Publication pending authentication; no public repository URL verified yet.
+- Working prototype: `Courtvision.html` is built and verified. Judges can download and open it locally.
+- Public GitHub source: [1tzAnn/CourtVision](https://github.com/1tzAnn/CourtVision) exists. Upload is pending GitHub sign-in; do not submit the empty repository.
 - Short description: ready above.
 - Devpost submission: not submitted.
 - Participant eligibility: the official rules welcome students; participant eligibility must be confirmed by the participant.
 - Video: optional, not required.
 
-The official rules list October 31, 2026 at 11:59 PM Pacific; the page header rounds this to November 1 at midnight PDT. Use October 31 at 11:59 PM Pacific as the cutoff and submit earlier. Rechecked October 30, 2026: https://aqxanalyticsfour.devpost.com/rules
+The official rules list October 31, 2026 at 11:59 PM Pacific; the page header rounds this to November 1 at midnight PDT. Use October 31 at 11:59 PM Pacific as the cutoff and submit earlier. Rechecked October 31, 2026: https://aqxanalyticsfour.devpost.com/rules
 
 Public deployment is an optional convenience, not an explicitly stated requirement on the rules page. Ensure the submitted prototype is accessible to judges through the public repository or another usable link. A private preview URL is insufficient.
 
 ## Verification and limits
 
-Run `.venv/bin/python scripts/check_release.py` with Node on PATH, or supply `--node /path/to/node`. The report in `docs/release-check.json` records successful checks and SHA-256 hashes of the built app and distributed files. The October 30 run passed all 32 Python tests, all eight JavaScript suites and all 11 cached-source checksums.
+Run `.venv/bin/python scripts/check_release.py` with Node on PATH, or supply `--node /path/to/node`. The report in `docs/release-check.json` records successful checks and SHA-256 hashes of the built app and distributed files. The October 31 run passed all 32 Python tests, all eight JavaScript suites and all 11 cached-source checksums.
 
 Browser save/restore, team handoffs, constrained search and responsive layouts have been exercised during development. Native file-picker/download UI remains partly untested. The older 2024–25 game test was inspected before the later Elo experiment; use the separately reserved 2025–26 audit for the strongest game-model evidence. Lineup coverage is capped and observations are not causal. Passing tests is not a guarantee of defect-free software or a competition outcome.

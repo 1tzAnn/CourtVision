@@ -29,11 +29,11 @@ def main():
         print(result.stdout, end='', flush=True)
         if result.stderr:
             print(result.stderr, end='', file=sys.stderr)
-        results.append({'check':name,'passed':result.returncode==0,'output':result.stdout.strip()})
+        results.append({'check':name,'passed':result.returncode==0,'output':result.stdout.strip().replace(str(ROOT), '.').replace(str(Path(sys.executable).parent.parent), '<python-environment>').replace('../' + Path(sys.executable).parent.parent.name, '<python-environment>')})
         if result.returncode:
             print(f'RELEASE CHECK FAILED: {name}. No new passing report was written.',file=sys.stderr)
             return result.returncode
-    files=[ROOT/'CourtVisionAI_Standalone.html', *sorted((ROOT/'dist').rglob('*'))]
+    files=[ROOT/'Courtvision.html', *sorted((ROOT/'dist').rglob('*'))]
     hashes={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}
     report={'checked_at_utc':datetime.now(timezone.utc).isoformat(),'status':'passed','checks':results,'sha256':hashes,
         'limits':['Automated verification is not a guarantee of defect-free software.','Public repository and Devpost submission are separate steps.','Browser file-picker/download dialogs are not exercised by this script.']}

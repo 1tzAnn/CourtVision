@@ -9,7 +9,7 @@ from pipeline.build import feature_vector,FEATURES,predict
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'dist/data.json').read_text())
 SPATIAL=json.loads((ROOT/'dist/spatial.json').read_text())
-app=FastAPI(title='COURTVISION AI',version='0.1.0')
+app=FastAPI(title='Courtvision',version='0.1.0')
 class Matchup(BaseModel):
     home:str
     away:str

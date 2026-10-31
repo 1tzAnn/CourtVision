@@ -55,7 +55,7 @@ function localDownload(path) {
     html = re.sub(r'<script type="module" src="app\.js[^\"]*"></script>',
                   lambda _: f'<script id="courtvision-data" type="application/json">{payload}</script>'
                             f'<script type="module">{script}</script>', html)
-    target = ROOT / 'CourtVisionAI_Standalone.html'
+    target = ROOT / 'Courtvision.html'
     target.write_text(html)
     print(f'Built {target} ({target.stat().st_size:,} bytes; {len(datasets)} embedded datasets)')
 

@@ -12,7 +12,7 @@ This is a working prototype with real data and measured evaluation results. It i
 
 ## Open the prototype
 
-Double-click **CourtVisionAI_Standalone.html** in this folder and open it in Safari, Chrome, or Edge. The complete dashboard, all 35 data files (including every team's shots), styles and model calculations are embedded in that single file. It runs offline without ChatGPT, an account, a server, Python, or API keys. Offline system fonts are used. Scenario saves depend on browser storage and the file/site address; use JSON export for backups that survive moving files or changing browsers. Source citations open external websites only when clicked.
+Double-click **Courtvision.html** in this folder and open it in Safari, Chrome, or Edge. The complete dashboard, all 35 data files (including every team's shots), styles and model calculations are embedded in that single file. It runs offline without an account, a server, Python, or API keys. Offline system fonts are used. Scenario saves depend on browser storage and the file/site address; use JSON export for backups that survive moving files or changing browsers. Source citations open external websites only when clicked.
 
 This folder contains the editable source, cached original data, trained model artifacts, documentation and tests. You can copy it, back it up, edit it or host it with any provider you choose. Original software is MIT licensed; the sports datasets retain their CC BY 4.0 attribution requirements. No hosting subscription is needed for local use.
 
@@ -166,7 +166,7 @@ Lineup Lab also finds observed alternatives sharing exactly four players with Un
 
 ### Visual redesign — October 28, 2026
 
-A new paper-and-ink design replaces the dark neon interface. Courtvision now uses plain navigation labels, larger text, warmer colors, and offline system fonts. All eight screens and charts use the new palette. See `docs/DESIGN.md` for design guidance. Existing local filenames are retained so saved links continue to work.
+A new paper-and-ink design replaces the dark neon interface. Courtvision now uses plain navigation labels, larger text, warmer colors, and offline system fonts. All eight screens and charts use the new palette. See `docs/DESIGN.md` for design guidance. The offline download is named Courtvision.html.
 
 ### Guided start
 
