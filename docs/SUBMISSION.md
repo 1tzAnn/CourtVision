@@ -28,8 +28,8 @@ JavaScript, HTML, CSS, SVG, Canvas, Python, pandas, scikit-learn, FastAPI, SQLit
 
 ## Required submission items and status
 
-- Working prototype: `Courtvision.html` is built and verified. Judges can download and open it locally.
-- Public GitHub source: [1tzAnn/CourtVision](https://github.com/1tzAnn/CourtVision) exists. Upload is pending GitHub sign-in; do not submit the empty repository.
+- Working prototype: [https://1tzann.github.io/CourtVision/](https://1tzann.github.io/CourtVision/) is live and browser-checked. `Courtvision.html` is also available for offline use.
+- Public GitHub source: [1tzAnn/CourtVision](https://github.com/1tzAnn/CourtVision) is public and contains the source. GitHub verification passed.
 - Short description: ready above.
 - Devpost submission: not submitted.
 - Participant eligibility: the official rules welcome students; participant eligibility must be confirmed by the participant.

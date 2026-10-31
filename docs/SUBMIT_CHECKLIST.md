@@ -4,8 +4,8 @@ Deadline: October 31, 2026 at 11:59 PM Pacific. Submit early.
 
 ## Links to include
 
-- Source: https://github.com/1tzAnn/CourtVision (repository exists; release upload must be verified).
-- Prototype: use the verified GitHub Pages URL once deployment succeeds. Until then, judges can download Courtvision.html from the published repository and open it in a browser.
+- Source: https://github.com/1tzAnn/CourtVision (public source uploaded; automated verification passed).
+- Prototype: https://1tzann.github.io/CourtVision/ (live; home screen and Boston–OKC matchup checked). Offline alternative: download Courtvision.html from the repository.
 - Description: copy the short project description from SUBMISSION.md.
 
 ## Before pressing Submit
