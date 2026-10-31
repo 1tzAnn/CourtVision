@@ -2,11 +2,11 @@
 
 ## Tagline
 
-Explore basketball matchups, rotations and shot patterns—with the evidence behind every result.
+NBA matchup, lineup, and shooting analysis with documented data and model evaluation.
 
 ## Short project description
 
-Courtvision is an offline basketball research app that helps analysts turn a practical question into an inspectable comparison. Pick two teams, explore a best-of-seven scenario, compare player profiles, or search for observed lineups that included one player and played without another.
+Courtvision is a basketball analytics application for comparing teams, evaluating best-of-seven series scenarios, analyzing player profiles, and reviewing observed lineups with specific player combinations.
 
 The app combines three displayed NBA seasons, 219,527 shot attempts and 2,000 observed lineup units. Small lineup samples are pulled toward the available-team average, with adjustable assumptions and ranking sensitivity shown alongside the result. Shot analysis separates shot selection from conversion and flags small samples. Saved studies and evidence exports make useful comparisons reproducible.
 
@@ -20,7 +20,7 @@ JavaScript, HTML, CSS, SVG, Canvas, Python, pandas, scikit-learn, FastAPI, SQLit
 
 ## Three-minute judge walkthrough
 
-1. **Start here:** Select Boston and Oklahoma City. Click Compare these teams. The percentages describe a hypothetical matchup using historical season-end ratings; they are not live odds.
+1. **Overview:** Select Boston and Oklahoma City. Click Compare teams. The percentages describe a hypothetical matchup using historical season-end ratings; they are not live odds.
 2. **Series simulator:** Give Boston home court. At 0–0 its series estimate is about 30.1%. At 3–3 it becomes 46.0%, with exactly one game remaining. Show the venue schedule and explain that the calculation assumes fixed, independent game probabilities.
 3. **Lineups:** Select Boston, minimum 100 possessions, prior 200. In Find rotation options, require J. Tatum and exclude K. Porziņģis. Seven observed units match. The Tatum/White/Kornet/Pritchard/Hauser unit has 127 possessions; raw +27.5 shrinks to about +17.0. Use as A and inspect the prior-sensitivity table. This is a candidate for review, not a proven replacement effect.
 4. **Shot charts:** Boston → Tatum → Corner three: 46 attempts, 20 makes, 43.5%. Show why the wide interval and small sample matter.

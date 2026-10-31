@@ -1,7 +1,7 @@
-Courtvision 1.0.1 — court edition
+Courtvision 1.0.2 — terminology update
 
-Charcoal navigation, leather-orange actions, warm court tones, and clearer headings. Competition references removed from the current app and project materials. Updated desktop/mobile screenshots and fully offline downloads.
+Revised navigation, page headings, analysis guidance and documentation to use direct, professional basketball terminology. Updated desktop and mobile previews.
 
 Prototype: https://1tzann.github.io/CourtVision/
 
-Validation: 32 Python tests; eight JavaScript suites; 11 source checksums; all eight mobile routes checked without page overflow; no browser errors in the tested flows. Historical analysis and model limitations remain visible.
+Verification: all 32 Python tests, eight JavaScript suites and source-integrity checks passed. All eight pages were checked in the browser; no console errors were observed.

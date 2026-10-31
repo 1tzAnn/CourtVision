@@ -2,7 +2,7 @@
 
 [Open prototype](https://1tzann.github.io/CourtVision/) · [Public source](https://github.com/1tzAnn/CourtVision) · [Submission description and walkthrough](docs/SUBMISSION.md)
 
-**Basketball questions, backed by inspectable evidence.**
+**Historical NBA analysis with reproducible results.**
 
 A reproducible historical NBA research platform. It helps analysts inspect matchups, compare player profiles, investigate observed lineups, and turn statistical patterns into testable coaching hypotheses.
 
@@ -170,7 +170,7 @@ A new paper-and-ink design replaces the dark neon interface. Courtvision now use
 
 ### Guided start
 
-Start here now opens with two team selectors. Compare the teams, start a best-of-seven series, or open scouting notes with the selected matchup carried across. Each analysis page has an optional plain-language quick guide. Muted sage surfaces and a deep green navigation area reduce the brightness of the earlier design.
+Overview now opens with two team selectors. Compare the teams, start a best-of-seven series, or open scouting notes with the selected matchup carried across. Each analysis page has an optional plain-language quick guide. Charcoal navigation and orange accents distinguish controls from the warm neutral analysis panels.
 
 ### Saved lineup studies
 

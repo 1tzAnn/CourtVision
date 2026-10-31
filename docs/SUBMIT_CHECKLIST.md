@@ -20,7 +20,7 @@ Deadline: October 31, 2026 at 11:59 PM Pacific. Submit early.
 
 ## Three-minute demo
 
-Start here → Boston/OKC → Series simulator → Boston at 0–0, then 3–3 → Lineups → include Tatum, exclude Porziņģis → inspect sample size and prior sensitivity → About the data.
+Overview → Boston/OKC → Series simulator → Boston at 0–0, then 3–3 → Lineups → include Tatum, exclude Porziņģis → inspect sample size and prior sensitivity → About the data.
 
 ## Release verification
 
